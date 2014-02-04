@@ -62,7 +62,7 @@
     return flag;
   }
   
-  $.fn.reponsiveImageMaps = function() {
+  $.fn.responsiveImageMaps = function() {
     this.each(function() {
       if ( ! $(this).attr('usemap')) return;
       
